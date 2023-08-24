@@ -52,8 +52,7 @@ nav ul li a{
 .contanier .content{
     width: 100%;
     height: calc(100vh - 95px);
-    background: rgb(238,174,202);
-    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: white;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -61,7 +60,7 @@ nav ul li a{
     padding: 0 5%;
 }
 .content .div-text span{
-    color: #fff;
+    color: black;
     font-size: 25px;
     text-transform: uppercase;
     letter-spacing: 1.8px;
@@ -92,8 +91,8 @@ nav ul li a{
 }
 .content .div-text .btn{
     padding: 15px 35px;
-    background-color: #fff;
-    color: black;
+    background-color: black;
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
@@ -101,8 +100,8 @@ nav ul li a{
     transition: 0.3s;
 }
 .content .div-text .btn:hover{
-    color: #fff;
-    background-color: black;
+    color: black;
+    background-color: white;
 }
 
 .content .div-img img{
@@ -122,8 +121,6 @@ nav ul li a{
     font-weight: bold;
     margin-left: 30%;
     padding: 20px;
-    letter-spacing: 1.8px;
-    color: black;
     color: black;
     margin-bottom: 25px;
     text-decoration: underline;
@@ -135,7 +132,7 @@ nav ul li a{
 
 .container1 img{
     height:305px;
-    background-color: rgb(245, 231, 245);
+    background-color:white;
     border-radius: 10%;
     margin:40px;
 }
